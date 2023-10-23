@@ -1,0 +1,1 @@
+python train_loop.py --model_name="densenet121" --batch_size=64

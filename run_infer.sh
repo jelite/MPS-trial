@@ -1,0 +1,1 @@
+nsys profile -t cuda,osrt,nvtx,cudnn,cublas --cuda-graph-trace=node -o ./"overlap" -w true -f true python infer.py --model_name="mobilenet_v3_large" --batch_size=16
